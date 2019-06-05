@@ -12,6 +12,18 @@ import javax.swing.*;
 
 public class Notepad  extends  JFrame {
 
+    private static final long serialVersionUID = 1L;
+    JFrame frame;
+    JMenuBar menuBar;
+    JMenu file;
+    JMenu edit;
+    JMenuItem open, newFile,save, exit;
+    JMenuItem undo,paste, selectAll ;
+    JMenu format;
+    JMenu help;
+    JFileChooser fileChooser;
+    JTextArea textArea;
+    Clipboard clip ;
 
 
 
